@@ -1,6 +1,35 @@
+
+body{
+    width: 100%;
+    height:600px;
+    background-color: rgb(7, 1, 1);
+    background-image: url('https://imgs.search.brave.com/dwa3lFxycQNRux2EUi5LJvLf1VqfRZRHOMbYnSeVPtQ/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5V/MjZFRVRCbU1FTjhR/U0o5RFR4b1lRSGFF/SyZwaWQ9QXBp');
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+}
+
 .DivTitle{
-    
     background:black;
     text-align: center;
     color: yellow;
+}
+
+.DivBody{
+    background-color: silver  ;
+}
+
+.DivButtons{
+    background-color: silver  ;
+    width: 30%;
+    top:0;
+    position: relative;
+    left:35%;
+    align-content: center;
+}
+
+button{
+    text-align: justify;
+    width:80% ;
+    left: 10%;
+    position: relative;
 }
