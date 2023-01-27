@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "Cuestion1.- What is the value of Dessert.type after executing this code?", 
+        "nameclass": "btn1",
+        "value": "Pregunta 1.- Cual es el valor de Dessert.type Despues de executar este código"
+    },
+    {
+        "caption": "Cuestion 2.- what will be logged to the console?",
+        "nameclass": "btn2",
+        "value": "Pregunta 2.- Que se registra en la consola?"
+    }
+]
