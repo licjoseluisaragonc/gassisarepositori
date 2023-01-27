@@ -1,5 +1,4 @@
 InitDom();
-ConstructorX();
 
 //#region Postback functions
 //esta función se ejecuta al inicio, y añado 2 eventos al postback
@@ -11,6 +10,8 @@ function InitDom() {
     Sys.WebForms.PageRequestManager.getInstance().add_endRequest(
       endPageRequest
     );
+  }
+  else{
     ConstructorX();
   }
 }
@@ -25,7 +26,6 @@ function endPageRequest(sender, args) {
     //hubo un error
   } else {
     //todo bien
-
   }
 }
 
@@ -50,7 +50,7 @@ function ConstructorX() {
         // Acceder al valor de la clave
         var boton = document.createElement('button'); //boton.className=elemento.nameclass;
         var itemX = obj[i]
-        boton.textContent = itemX.caption
+        boton.innerHTML = itemX.caption + "<br>" + itemX.value
         boton.className = itemX.nameclass
         boton.addEventListener("click", buttonClickHandler)
         MainBody.appendChild(boton)
@@ -69,7 +69,7 @@ function buttonClickHandler(event) {
       const Dessert = { type: "Pie" };
       Dessert.type = "Pudding";
       const Second = Dessert;
-      Second.type = "Fluid";
+      Second.type = "Fruit";
       window.alert(Dessert.type);
       console.log(Dessert.type); //R=Fluid
       break;
@@ -79,9 +79,13 @@ function buttonClickHandler(event) {
       window.alert(typeof "BlueBerry")
       console.log(typeof "BlueBerry") //R=String
       break
-      case "btn3":
-    
+    case "btn3":
+
+
+
+
       break
+    
     default:
       // Rutina por defecto
       break;
