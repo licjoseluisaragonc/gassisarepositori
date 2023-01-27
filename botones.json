@@ -2,11 +2,11 @@
     {
         "caption": "Cuestion1.- What is the value of Dessert.type after executing this code?", 
         "nameclass": "btn1",
-        "value": "Pregunta 1.- Cual es el valor de Dessert.type Despues de executar este código"
+        "value": "Pregunta 1.- Cual es el valor de Dessert.type Despues de executar este código<br><br><br>const Dessert.type = {type: 'Pie'}<br>Dessert.type = 'Pidding'<br>const Second = Dessert<br> Second.type = 'Fruit'<br>console.log(Dessert.type)<br><br><br>"
     },
     {
         "caption": "Cuestion 2.- what will be logged to the console?",
         "nameclass": "btn2",
-        "value": "Pregunta 2.- Que se registra en la consola?"
+        "value": "Pregunta 2.- Que se registra en la consola?<br><br><br>console.log(typeOf: 'BlueBerry')<br><br><br>"
     }
 ]
